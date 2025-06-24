@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/drawable/dashboard_logo.xml" value="0.124" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/drawable/ic_baseline_arrow_back.xml" value="0.1" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/drawable/ic_baseline_play_circle.xml" value="0.122" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/drawable/rectangle_round_cream_border_black.xml" value="0.122" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/drawable/rectangle_round_white_border_black.xml" value="0.124" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/layout/activity_about.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/layout/activity_live.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/layout/activity_main.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/layout/activity_music.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/sajed/AndroidStudioProjects/BabyCradle/app/src/main/res/layout/layout_list_music.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

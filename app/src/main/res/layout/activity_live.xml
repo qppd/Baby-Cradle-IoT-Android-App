@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".LiveActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/ic_baseline_arrow_back" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/verdanab"
+            android:gravity="center"
+            android:text="Live Stream Video"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:cardCornerRadius="15dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle_round_cream_border_black"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <ImageView
+                    android:id="@+id/imgLive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp" />
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ToggleButton
+            android:id="@+id/tglSwing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="Swing ON"
+            android:textOff="Swing OFF"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/cream2"
+            android:paddingHorizontal="24dp"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/cream2"
+            android:paddingHorizontal="24dp"
+            android:elevation="4dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

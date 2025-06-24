@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BabyCradle</string>
+
+    <string name="about_description">Baby Cradle is an automated monitoring system to cradle that is
+designed to create an alternative way
+to monitor their baby. It features:
+</string>
+
+    <string name="about_bullet_list"><![CDATA[
+        &#8226; Live Monitoring
+        &#8226; Music Playback
+        &#8226; Automatic Swing
+        &#8226; Notifications
+        ]]>
+    </string>
+
+</resources>
